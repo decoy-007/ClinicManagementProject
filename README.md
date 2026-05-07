@@ -22,19 +22,19 @@ The system allows clinic administrators to:
 
 
 
-\- Register and manage patients
+ Register and manage patients
 
-\- Drop and restore patients
+ Drop and restore patients
 
-\- Record and manage patient visits
+ Record and manage patient visits
 
-\- Track doctors
+ Track doctors
 
-\- Monitor real-time dashboard statistics
+ Monitor real-time dashboard statistics
 
-\- Log system activity
+ Log system activity
 
-\- Manage secure admin login
+ Manage secure admin login
 
 
 
@@ -46,21 +46,21 @@ The system allows clinic administrators to:
 
 
 
-\- 🔹 Custom form loading system with form caching
+ Custom form loading system with form caching
 
-\- 🔹 Dashboard counters auto-update
+ Dashboard counters auto-update
 
-\- 🔹 Soft-delete system (Drop/Restore patients)
+Soft-delete system (Drop/Restore patients)
 
-\- 🔹 Activity logging implementation
+Activity logging implementation
 
-\- 🔹 Reusable UserControls
+Reusable UserControls
 
-\- 🔹 SQL Server database integration
+SQL Server database integration
 
-\- 🔹 Connection handling via `DBaccess` class
+Connection handling via `DBaccess` class
 
-\- 🔹 Session management using `UserSession`
+Session management using `UserSession`
 
 
 
@@ -76,15 +76,15 @@ The system allows clinic administrators to:
 
 |------------|----------|
 
-| C# | Application Logic |
+C# | Application Logic 
 
-| .NET Framework | Application Runtime |
+ .NET Framework | Application Runtime |
 
-| Windows Forms | UI |
+ Windows Forms | UI |
 
-| SQL Server | Database |
+ SQL Server | Database |
 
-| ADO.NET | Database Communication |
+ ADO.NET  Database Communication |
 
 
 
@@ -96,15 +96,15 @@ The system allows clinic administrators to:
 
 
 
-\- Separation of concerns (UI, DB access, session management)
+Separation of concerns (UI, DB access, session management)
 
-\- Reusable components (UserControls)
+Reusable components (UserControls)
 
-\- Encapsulated database operations
+Encapsulated database operations
 
-\- Centralized dashboard logic
+Centralized dashboard logic
 
-\- Controlled state transitions (Drop/Restore patients)
+Controlled state transitions (Drop/Restore patients)
 
 
 
@@ -116,19 +116,19 @@ The system allows clinic administrators to:
 
 
 
-\- `PatientsForm` – Patient operations
+PatientsForm – Patient operations
 
-\- `PatientVisitControl` – Visit recording
+PatientVisitControl – Visit recording
 
-\- `DoctorsForm` – Doctor management
+DoctorsForm – Doctor management
 
-\- `Dashboard` – System statistics
+Dashboard – System statistics
 
-\- `DBaccess` – All database operations
+DBaccess – All database operations
 
-\- `UserSession` – User tracking
+UserSession – User tracking
 
-\- `ActivityForm` – Logs system activity
+ActivityForm – Logs system activity
 
 
 
@@ -142,13 +142,13 @@ The system allows clinic administrators to:
 
 Instead of permanently deleting patients, the system:
 
-\- Moves dropped patients to a `DroppedPatients` table
+Moves dropped patients to a DroppedPatients table
 
-\- Allows restoration with integrity checks
+Allows restoration with integrity checks
 
-\- Prevents duplicate patient keys
+Prevents duplicate patient keys
 
-\- Prompts the user before restoring
+Prompts the user before restoring
 
 
 
@@ -164,13 +164,13 @@ This demonstrates data integrity awareness and real-world system design.
 
 
 
-1\. Open `ClinicManagementProject.sln` in Visual Studio
+1\. Open ClinicManagementProject.sln in Visual Studio
 
 2\. Restore NuGet packages if required
 
 3\. Set up SQL Server database
 
-4\. Update the connection string in `App.config`
+4\. Update the connection string in App.config
 
 5\. Run the application
 
@@ -184,19 +184,19 @@ This demonstrates data integrity awareness and real-world system design.
 
 
 
-✔ Database CRUD operations  
+ Database CRUD operations  
 
-✔ Business rule implementation  
+ Business rule implementation  
 
-✔ State management  
+ State management  
 
-✔ UI control \& navigation logic  
+ UI control \& navigation logic  
 
-✔ Basic system architecture design  
+ Basic system architecture design  
 
-✔ Error handling  
+ Error handling  
 
-✔ Logging mechanisms  
+ Logging mechanisms  
 
 
 
