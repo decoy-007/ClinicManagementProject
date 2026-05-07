@@ -68,7 +68,7 @@ Session management using `UserSession`
 
 
 
-\## 🛠️ Tech Stack
+\ Tech Stack
 
 
 
