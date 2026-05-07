@@ -58,9 +58,9 @@ Reusable UserControls
 
 SQL Server database integration
 
-Connection handling via `DBaccess` class
+Connection handling via DBaccess class
 
-Session management using `UserSession`
+Session management using UserSession
 
 
 
@@ -136,7 +136,7 @@ ActivityForm – Logs system activity
 
 
 
-\##  Drop \& Restore Logic
+\##  Drop and Restore Logic
 
 
 
